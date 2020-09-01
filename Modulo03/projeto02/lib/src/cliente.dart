@@ -25,4 +25,8 @@ class Cliente extends Pessoa {
     print('Genero: $genero');
     print('Conta: $conta');
   }
+
+  bool MaiorDeIdade() {
+    return idade >= 18;
+  }
 }
